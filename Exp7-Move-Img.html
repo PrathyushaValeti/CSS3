@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>CSS3 Animation</title>
+        <style>
+          .box{
+            margin: 50px;
+            width: 400px;
+            height: 500px;
+            background: url("galaxy.jpg")no-repeat;
+            position:relative;
+         animation: repeatit 2s linear 5s infinite alternate;
+          }
+          /*1st parameter is for in how much time ;and 2nd parameter is for after how much time to start.*/
+          @keyframes repeatit{
+            from{left: 0;}
+            to{left:50%;}
+          }
+        </style>
+        </head>
+        <body>
+         <div class="box"></div>
+           
+    </body>
+</html>

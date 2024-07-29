@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            MediaQueries
+        </title>
+        <style>
+            /*hse: hue,saturation,lightness */
+            .container{
+                margin: 0 auto;
+                background: hsl(154, 38%, 37%);
+                box-sizing: border-box;
+            }
+            /*Smartphones (potrait and landscape )*/
+            @media screen and (min-width:767px) {
+                .container{
+                    width:100px;
+                    padding:5px 10px;
+                }
+            }
+            /* Tablets,ipads(potrait and landscape )*/
+            @media screen and (min-width:768px) and (max-width:1024px) {
+                .container{
+                    width: 750px;
+                    padding: 5px 10px;
+                }
+            }
+            /* Low resolution desktops and laptops*/
+            @media screen and (min-width:1280px){
+                .container{
+                    width:1200px;
+                    padding:5px 20px;
+                }
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>CSS3 Web Technologies</h1>
+  <p>MediaQueries are css3 rules that allow developers to create styles based on the characteristics of the device or screen resolutions</p>
+  <br>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores doloremque perferendis quo incidunt tenetur dolorem iste voluptates quis dolor ad, aliquid vitae saepe et debitis. Obcaecati voluptatum ipsa quisquam ad.</p>
+        </div>    
+</body>
+</html>
